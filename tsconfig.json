@@ -1,0 +1,23 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["ESNext"],
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "noImplicitOverride": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "verbatimModuleSyntax": true,
+    "declaration": false,
+    "noEmit": true,
+    "sourceMap": true,
+    "allowImportingTsExtensions": true,
+    "types": ["@types/node"]
+  },
+  "include": ["./**/*"],
+
+  "exclude": ["node_modules", "dist"]
+}

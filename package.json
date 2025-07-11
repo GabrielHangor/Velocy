@@ -1,0 +1,17 @@
+{
+  "name": "velocy",
+  "version": "0.0.1",
+  "main": "intex.ts",
+  "type": "module",
+  "scripts": {
+    "logger:test": "node ./logtar/test.ts",
+    "start": "node --watch ./main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^24.0.3"
+  }
+}
